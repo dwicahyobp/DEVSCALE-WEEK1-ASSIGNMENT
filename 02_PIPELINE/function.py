@@ -15,7 +15,7 @@ def generate_raw_response(user_message: str) -> str:
         messages=[
             {
                 "role": "system", 
-                "content": "Answer the user message in a concise and comprehensive way. Only provide information based on the context of the question.",
+                "content": "find every details of the food based on the user message. Only provide information based on the context of the question.",
             },
              {
                 "role": "user", 
@@ -53,7 +53,7 @@ def generate_structured_response(user_message: str, structured_response: dict) -
         messages=[
             {
                 "role": "system", 
-                "content": "Answer the user message in a concise and comprehensive way. Only provide information based on the context of the question. Format the response according to the provided structured response format.",
+                "content": "find every details of the recipee based on the user message. Only provide information based on the context of the question. Format the response according to the provided structured response format.",
             },
              {
                 "role": "user", 
