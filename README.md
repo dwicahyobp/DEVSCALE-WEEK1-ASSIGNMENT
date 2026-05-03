@@ -1,5 +1,13 @@
 # Devscale Bootcamp Assignment #1
 
+## Assignment #1
+- Bikin simple chatbot - input ()
+    - Context Injection
+- Pipeline -> 3 steps process to achieve something.
+    - Generate_raw_information(topic)
+    - Summarize(raw_information)
+    - Extract(summarized_content)
+
 ## Overview
 
 This repository contains Assignment #1 for the Devscale Bootcamp. It includes two Python projects:
